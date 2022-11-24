@@ -1,14 +1,11 @@
 <?php
-  define("GOAL", 40);
-  $total = 0;
-  for ($i = 1; $i <= GOAL; $i++) {
-      $n = rand(1, 6);
-      $total += $n;
-      echo "{$i}回目={$n} <br>";
-      if ($total >= GOAL) {
-          echo "合計{$i}回でゴールしました <br>";
-          break;
-      }
+  $x = 0;
+  $i = 0;
+  while ($x < 40) {
+    $i++;
+    $s = rand(1,6);
+    echo $i . "回目=" . $s . "<br>";
+    $x += $s;
   }
-
+  echo "合計" . $i . "回でゴールしました";
 ?>
