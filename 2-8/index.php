@@ -1,8 +1,7 @@
 <?php
-  $fruits = ["apple" => "といったらリンゴ","orange" => "といったらミカン","peach" => "といったらモモ"];
+  $fruits = ["apple" => "リンゴ","orange" => "ミカン","peach" => "モモ"];
 
   foreach ($fruits as $key => $value){
-    echo $key;
-    echo $value. '<br />';
+    echo $key. "といったら". $value. '<br />';
   }
 ?>
