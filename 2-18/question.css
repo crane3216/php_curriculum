@@ -1,0 +1,12 @@
+.contents{
+  background-color: dimgrey;
+  height: 100%;
+  padding-top: 35px;
+  text-align: center;
+}
+
+form, p, h2{
+  color: white;
+}
+
+
